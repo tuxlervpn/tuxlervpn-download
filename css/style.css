@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+.payment-method-box{padding-left: 0;}
+.payment-method-box li{display: inline-block;list-style: none;width: 30%;margin: 6px;}
+.payment-method-box li a img{max-width: 100%;}
+.custom-modal-header .close {margin-top: -10px;}
+.custom-modal-header .modal-title{font-weight: bold;}
+.custom-modal-dialog{top: 36%;}
+
+
+@media (max-width: 479px){
+    .payment-method-box li{width: 100%;}
+}
